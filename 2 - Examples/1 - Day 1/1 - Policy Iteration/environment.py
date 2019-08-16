@@ -75,13 +75,13 @@ class GraphicDisplay(tk.Tk):
         return canvas
 
     def load_images(self):
-        up = PhotoImage(Image.open("../img/up.png").resize((13, 13)))
-        right = PhotoImage(Image.open("../img/right.png").resize((13, 13)))
-        left = PhotoImage(Image.open("../img/left.png").resize((13, 13)))
-        down = PhotoImage(Image.open("../img/down.png").resize((13, 13)))
-        rectangle = PhotoImage(Image.open("../img/rectangle.png").resize((65, 65)))
-        triangle = PhotoImage(Image.open("../img/triangle.png").resize((65, 65)))
-        circle = PhotoImage(Image.open("../img/circle.png").resize((65, 65)))
+        up = PhotoImage(Image.open("../../Images/up.png").resize((13, 13)))
+        right = PhotoImage(Image.open("../../Images/right.png").resize((13, 13)))
+        left = PhotoImage(Image.open("../../Images/left.png").resize((13, 13)))
+        down = PhotoImage(Image.open("../../Images/down.png").resize((13, 13)))
+        rectangle = PhotoImage(Image.open("../../Images/rectangle.png").resize((65, 65)))
+        triangle = PhotoImage(Image.open("../../Images/triangle.png").resize((65, 65)))
+        circle = PhotoImage(Image.open("../../Images/circle.png").resize((65, 65)))
         return (up, down, left, right), (rectangle, triangle, circle)
 
     def reset(self):
