@@ -1,6 +1,6 @@
-# 2019-OSS-Summer-RL
+# 2019-OSS-Summer-RLBasic
 
-2019-OSS-Summer-RL is the material(lecture notes, examples and assignments) repository for reinforcement learning basic course that I have taught at Kookmin University in the summer of 2019. Note that examples and assignments in this repository uses [Keras](https://keras.io/).
+2019-OSS-Summer-RLBasic is the material(lecture notes, examples and assignments) repository for reinforcement learning basic course that I have taught at Kookmin University in the summer of 2019. Note that examples and assignments in this repository uses [Keras](https://keras.io/).
 
 ## Related Repositories
 
